@@ -39,7 +39,7 @@ namespace IIS.Semya12
         
         private string fПроизвод;
         
-        private int fid;
+        private int fНомерД;
         
         private IIS.Semya12.Контроллер fКонтроллер;
         
@@ -49,33 +49,33 @@ namespace IIS.Semya12
 
         
         /// <summary>
-        /// id.
+        /// НомерД.
         /// </summary>
-        // *** Start programmer edit section *** (Датчик.id CustomAttributes)
+        // *** Start programmer edit section *** (Датчик.НомерД CustomAttributes)
 
-        // *** End programmer edit section *** (Датчик.id CustomAttributes)
-        public virtual int id
+        // *** End programmer edit section *** (Датчик.НомерД CustomAttributes)
+        public virtual int НомерД
         {
             get
             {
-                // *** Start programmer edit section *** (Датчик.id Get start)
+                // *** Start programmer edit section *** (Датчик.НомерД Get start)
 
-                // *** End programmer edit section *** (Датчик.id Get start)
-                int result = this.fid;
-                // *** Start programmer edit section *** (Датчик.id Get end)
+                // *** End programmer edit section *** (Датчик.НомерД Get start)
+                int result = this.fНомерД;
+                // *** Start programmer edit section *** (Датчик.НомерД Get end)
 
-                // *** End programmer edit section *** (Датчик.id Get end)
+                // *** End programmer edit section *** (Датчик.НомерД Get end)
                 return result;
             }
             set
             {
-                // *** Start programmer edit section *** (Датчик.id Set start)
+                // *** Start programmer edit section *** (Датчик.НомерД Set start)
 
-                // *** End programmer edit section *** (Датчик.id Set start)
-                this.fid = value;
-                // *** Start programmer edit section *** (Датчик.id Set end)
+                // *** End programmer edit section *** (Датчик.НомерД Set start)
+                this.fНомерД = value;
+                // *** Start programmer edit section *** (Датчик.НомерД Set end)
 
-                // *** End programmer edit section *** (Датчик.id Set end)
+                // *** End programmer edit section *** (Датчик.НомерД Set end)
             }
         }
         

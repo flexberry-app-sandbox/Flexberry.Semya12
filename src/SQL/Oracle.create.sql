@@ -39,7 +39,7 @@ CREATE TABLE "Датчик"
 
 	"Производ" NVARCHAR2(255) NULL,
 
-	"id" NUMBER(10) NULL,
+	"НомерД" NUMBER(10) NULL,
 
 	"Контроллер" RAW(16) NOT NULL,
 

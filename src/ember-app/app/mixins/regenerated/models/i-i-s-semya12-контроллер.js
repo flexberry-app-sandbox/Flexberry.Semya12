@@ -47,8 +47,7 @@ export let defineProjections = function (modelClass) {
     состояние: attr('Состояние', { index: 1 }),
     датчик: hasMany('i-i-s-semya12-датчик', 'Датчик', {
       погрешность: attr('Погрешность', { index: 0 }),
-      производ: attr('Производ', { index: 1 }),
-      id: attr('Id', { index: 2 })
+      производ: attr('Производ', { index: 1 })
     })
   });
 
@@ -57,8 +56,7 @@ export let defineProjections = function (modelClass) {
     состояние: attr('Состояние', { index: 1 }),
     датчик: hasMany('i-i-s-semya12-датчик', '', {
       погрешность: attr('Погрешность', { index: 0 }),
-      производ: attr('Производ', { index: 1 }),
-      id: attr('Id', { index: 2 })
+      производ: attr('Производ', { index: 1 })
     })
   });
 };

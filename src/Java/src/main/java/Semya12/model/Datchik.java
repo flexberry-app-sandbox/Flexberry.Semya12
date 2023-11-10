@@ -28,8 +28,8 @@ public class Datchik {
     @Column(name = "Производ")
     private String производ;
 
-    @Column(name = "id")
-    private Integer id;
+    @Column(name = "НомерД")
+    private Integer номерд;
 
     @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "Kontroller")
@@ -70,12 +70,12 @@ public class Datchik {
       this.производ = производ;
     }
 
-    public Integer getid() {
-      return id;
+    public Integer getНомерД() {
+      return номерд;
     }
 
-    public void setid(Integer id) {
-      this.id = id;
+    public void setНомерД(Integer номерд) {
+      this.номерд = номерд;
     }
 
 

@@ -22,7 +22,7 @@ CREATE TABLE Датчик (
  primaryKey UUID NOT NULL,
  Погрешность DOUBLE PRECISION NULL,
  Производ VARCHAR(255) NULL,
- id INT NULL,
+ НомерД INT NULL,
  Контроллер UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 

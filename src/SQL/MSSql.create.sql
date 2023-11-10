@@ -30,7 +30,7 @@ CREATE TABLE [Датчик] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [id] INT  NULL,
+	 [НомерД] INT  NULL,
 
 	 [Погрешность] FLOAT  NULL,
 

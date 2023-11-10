@@ -5,15 +5,15 @@ import { validator } from 'ember-cp-validations';
 import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes';
 
 export let Model = Mixin.create({
-  id: DS.attr('number'),
+  номерД: DS.attr('number'),
   погрешность: DS.attr('decimal'),
   производ: DS.attr('string'),
   контроллер: DS.belongsTo('i-i-s-semya12-контроллер', { inverse: 'датчик', async: false })
 });
 
 export let ValidationRules = {
-  id: {
-    descriptionKey: 'models.i-i-s-semya12-датчик.validations.id.__caption__',
+  номерД: {
+    descriptionKey: 'models.i-i-s-semya12-датчик.validations.номерД.__caption__',
     validators: [
       validator('ds-error'),
       validator('number', { allowString: true, allowBlank: true, integer: true }),
@@ -44,7 +44,6 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ДатчикE', 'i-i-s-semya12-датчик', {
     погрешность: attr('Погрешность', { index: 0 }),
-    производ: attr('Производ', { index: 1 }),
-    id: attr('Id', { index: 2 })
+    производ: attr('Производ', { index: 1 })
   });
 };

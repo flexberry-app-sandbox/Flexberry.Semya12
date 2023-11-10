@@ -34,7 +34,7 @@ export default Controller.extend({
             link: 'i-i-s-semya12-темпа-устан-l',
             caption: i18n.t('forms.application.sitemap.semya12.i-i-s-semya12-темпа-устан-l.caption'),
             title: i18n.t('forms.application.sitemap.semya12.i-i-s-semya12-темпа-устан-l.title'),
-            icon: 'tags',
+            icon: 'address card',
             children: null
           }]
         }

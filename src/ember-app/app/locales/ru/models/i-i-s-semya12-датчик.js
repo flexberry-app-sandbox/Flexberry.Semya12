@@ -13,8 +13,8 @@ export default {
     }
   },
   validations: {
-    id: {
-      __caption__: 'Id'
+    номерД: {
+      __caption__: 'номерД'
     },
     погрешность: {
       __caption__: 'Погрешность'
@@ -24,6 +24,9 @@ export default {
     },
     контроллер: {
       __caption__: 'контроллер'
+    },
+    id: {
+      __caption__: 'Id'
     }
   }
 };
