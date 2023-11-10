@@ -1,0 +1,105 @@
+﻿{
+  "name": "IISSemya12Контроллер",
+  "modelName": "i-i-s-semya12-контроллер",
+  "className": "Контроллер",
+  "nameSpace": "IIS.Semya12",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояние",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "темпаУстан",
+      "relatedTo": "i-i-s-semya12-темпа-устан",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "датчик",
+      "relatedTo": "i-i-s-semya12-датчик",
+      "inverse": "контроллер"
+    }
+  ],
+  "projections": [
+    {
+      "name": "КонтроллерE",
+      "modelName": "i-i-s-semya12-контроллер",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ДатчикE",
+          "caption": "Датчик",
+          "name": "датчик",
+          "relatedTo": "i-i-s-semya12-датчик",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "КонтроллерL",
+      "modelName": "i-i-s-semya12-контроллер",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ДатчикE",
+          "caption": "",
+          "name": "датчик",
+          "relatedTo": "i-i-s-semya12-датчик",
+          "inverse": null
+        }
+      ]
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

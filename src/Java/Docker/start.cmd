@@ -1,0 +1,1 @@
+docker-compose -p semya12-java up -d

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semya12.Objects", "Objects/Semya12.Objects.csproj", "b38f4fcb-520c-4053-882b-4687afe068b6"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semya12.Tests", "Tests/Semya12.Tests.csproj", "3b3d17d7-63bb-4f27-98ed-ff1ec7d5373f"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semya12.ODataBackend", "ODataBackend/Semya12.ODataBackend.csproj", "84fc95e4-7d7b-47af-816c-8311388e028b"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semya12.IntegrationTests", "IntegrationTests/Semya12.IntegrationTests.csproj", "0719f55c-c40c-4f99-b5f7-34c3f8b74e9a"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		b38f4fcb-520c-4053-882b-4687afe068b6.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		b38f4fcb-520c-4053-882b-4687afe068b6.Debug|Any CPU.Build.0 = Debug|Any CPU
+		b38f4fcb-520c-4053-882b-4687afe068b6.Release|Any CPU.ActiveCfg = Release|Any CPU
+		b38f4fcb-520c-4053-882b-4687afe068b6.Release|Any CPU.Build.0 = Release|Any CPU
+		3b3d17d7-63bb-4f27-98ed-ff1ec7d5373f.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		3b3d17d7-63bb-4f27-98ed-ff1ec7d5373f.Debug|Any CPU.Build.0 = Debug|Any CPU
+		3b3d17d7-63bb-4f27-98ed-ff1ec7d5373f.Release|Any CPU.ActiveCfg = Release|Any CPU
+		3b3d17d7-63bb-4f27-98ed-ff1ec7d5373f.Release|Any CPU.Build.0 = Release|Any CPU
+		84fc95e4-7d7b-47af-816c-8311388e028b.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		84fc95e4-7d7b-47af-816c-8311388e028b.Debug|Any CPU.Build.0 = Debug|Any CPU
+		84fc95e4-7d7b-47af-816c-8311388e028b.Release|Any CPU.ActiveCfg = Release|Any CPU
+		84fc95e4-7d7b-47af-816c-8311388e028b.Release|Any CPU.Build.0 = Release|Any CPU
+		0719f55c-c40c-4f99-b5f7-34c3f8b74e9a.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		0719f55c-c40c-4f99-b5f7-34c3f8b74e9a.Debug|Any CPU.Build.0 = Debug|Any CPU
+		0719f55c-c40c-4f99-b5f7-34c3f8b74e9a.Release|Any CPU.ActiveCfg = Release|Any CPU
+		0719f55c-c40c-4f99-b5f7-34c3f8b74e9a.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

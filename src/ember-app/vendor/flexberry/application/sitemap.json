@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Semya12",
+  "applicationTitle": "Semya12",
+  "items": [
+    {
+      "link": null,
+      "menuName": "semya12",
+      "caption": "Semya12",
+      "title": "Semya12",
+      "children": [
+        {
+          "link": "i-i-s-semya12-контроллер-l",
+          "menuName": null,
+          "caption": "Контроллер",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya12-темпа-устан-l",
+          "menuName": null,
+          "caption": "Темпа устан",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
